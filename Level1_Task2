@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 50px;
+    }
+
+    section div {
+      flex: 1;
+      text-align: center;
+      padding: 20px;
+    }
+
+    section h2 {
+      color: #333;
+    }
+
+    section p {
+      color: #666;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+  <title>E-Zone Landing Page</title>
+</head>
+<body>
+
+  <header>
+    <h1>E-ZONE SALES&SERVICES </h1>
+    <p>Welcome to our website!</p>
+  </header>
+
+  <section>
+    <div>
+      <h2>About Us</h2>
+      <p>Choose your favourite electronic devices from our website,Electronic devices includes       
+      mobile phones,laptops and tablets.</p>
+    </div>
+
+    <div>
+      <h2>Services</h2>
+      <p>-Mobile phones</p>
+      <p>-Laptops </p>
+      <p>-Tablets</p> 
+      <p>-Sales and Services.</p>
+    </div>
+
+    <div>
+      <h2>Contact</h2>
+      <p>Email- nadavadimanaswini23@gmail.com </p>
+      <p>Mobile- +91 8121065617
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 E-ZONE SALES&SERVICES. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
